@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    height: 100vh;
+}
+.homepage{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.gameBoardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    background-color: white;
+    gap: .35rem;
+    aspect-ratio: 1/1;
+}
+
+
+.smallerGameContainer{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallGameBoard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    height: 86%;
+    background-color: white;
+    gap: .15rem;
+    aspect-ratio: 1 / 1;
+}
+
+.smallerGameContainer .smallGameBoard .playingBox{
+    background-color: black;
+    height: 100%;
+}

@@ -54,6 +54,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .circle{
@@ -105,6 +106,9 @@
 .hide{
     display: none !important;
 }
-.dim{
+.disabled{
     opacity: 0.5 !important;
+}
+.disabled .playingBox{
+    cursor: unset !important;
 }
